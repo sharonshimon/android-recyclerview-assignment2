@@ -1,0 +1,34 @@
+package com.example.assignmentrecycleview;
+public class MyData {
+    static String[] nameArray = {
+            "Sheldon Cooper",
+            "Leonard Hofstadter",
+            "Penny",
+            "Howard Wolowitz",
+            "Rajesh Koothrappali",
+            "Amy Farrah Fowler",
+            "Bernadette Rostenkowski"
+    };
+
+    static String[] descriptionArray = {
+            "Theoretical physicist with genius IQ and zero social filter",
+            "Experimental physicist, the more grounded roommate",
+            "Aspiring actress who became a pharmaceutical sales rep",
+            "Aerospace engineer known for bold fashion and one‑liners",
+            "Astrophysicist who famously can’t talk to women… at first",
+            "Neurobiologist and Sheldon’s equally quirky partner",
+            "Microbiologist with a deceptively sweet voice and steel backbone"
+    };
+
+    static Integer[] drawableArray = {
+            R.drawable.sheldon,
+            R.drawable.leonard_hofstadter,
+            R.drawable.penny_bigbangtheory,
+            R.drawable.howard_wolowitz,
+            R.drawable.rajesh_koothrappali,
+            R.drawable.amy_farrah_fowler_first_appearance,
+            R.drawable.bernadette_rostenkowski
+    };
+
+    static Integer[] idArray = { 0, 1, 2, 3, 4, 5, 6 };
+}
